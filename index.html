@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prime Video</title>
+    <link rel="shortcut icon" href="imagens/icons8-amazon-prime-video-16 (1).png" type="image/x-icon">
     <style>
         *{
             padding: 0px;
             margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body{
+            height: 100vh;
+            width: 100vw;
         }
 
         header{
@@ -21,7 +28,7 @@
 
         
         nav{
-            background-color: black;
+            background-color: rgb(30, 30, 30);
             padding: 50px;
             color: white;
             text-align: center;
@@ -32,6 +39,10 @@
             color: white;
             padding: 50px;
             text-decoration: none;
+        }
+
+        nav a:hover {
+            color: rgb(26, 152, 255);
         }
 
         main{
@@ -45,11 +56,21 @@
             padding-top: 20px;
             margin: 10px;
         }
+
+        section a {
+            text-decoration: none;
+            color: black;
+        }
+        section a:hover {
+            color: rgb(26, 152, 255);
+        }
         
         figure  img {
             width: 500x;
             height: 400px;
         }
+
+        
 
         .esquerda{
             height: 50px;
@@ -75,7 +96,7 @@
         
         footer{
             width: 100vw;
-            background-color: black;
+            background-color: rgb(30, 30, 30);
             padding-top: 40px;
             padding-bottom: 30px;
         
@@ -89,12 +110,27 @@
             text-align: center;
             padding-top: 20px;
         }
+
+        footer a img{
+            border-radius: 30%;
+           
+            
+        }
+
+        footer a img:hover{
+            border: 2px solid  rgba(216, 208, 208, 0.63);
+            transform: translate(-3px, -3px);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63) ;
+            transition: transform 0.5s;
+            
+        }
        
     
         footer img {
-            width: 50px;    
+            width: 40px;    
             padding: 20px;
-            padding-top:10px;
+            padding-top:10px; 
+
         } 
         
         
@@ -117,26 +153,46 @@
         <section>
            
             <div class="esquerda"><img src="imagens/setaesquerda.png" alt=""></div>
-            <div><figure><img src="imagens/theboys.png" alt=""><figcaption>THE BOYS</figcaption></figure></div>
-            <div><figure><img src="imagens/todomundoodeia.png" alt=""><figcaption>TODO MUNDO ODEIA O CHRIS</figcaption></figure></div>
-            <div><figure><img src="imagens/interestelar.png" alt=""><figcaption>INTERESTELLAR</figcaption></figure></div>
-            <div class="direita"><img src="imagens/setadireita.png" alt=""></div>
+
+            <div><a href="#">
+                <figure><img src="imagens/theboys.png" alt=""><figcaption>THE BOYS</figcaption></figure>
+            </a></div>
+
+            <div><a href="#">
+                <figure><img src="imagens/todomundoodeia.png" alt=""><figcaption>Todo mundo odeia o Chris</figcaption></figure>
+            </a></div>
+
+            <div><a href="#">
+                <figure><img src="imagens/interestelar.png" alt=""><figcaption>Interestellar</figcaption></figure>
+            </a></div>
+            
+                <div class="direita"><img src="imagens/setadireita.png" alt=""></div>
         </section>
 
         <section>
            
             <div class="esquerda"><img src="imagens/setaesquerda.png" alt=""></div>
-            <div><figure><img src="imagens/theboys.png" alt=""><figcaption>THE BOYS</figcaption></figure></div>
-            <div><figure><img src="imagens/todomundoodeia.png" alt=""><figcaption>TODO MUNDO ODEIA O CHRIS</figcaption></figure></div>
-            <div><figure><img src="imagens/interestelar.png" alt=""><figcaption>INTERESTELLAR</figcaption></figure></div>
+
+            <div><a href="#">
+                <figure><img src="imagens/senhordosaneis.png" alt=""><figcaption>Senhor dos Anéis</figcaption></figure>
+            </a></div>
+
+            <div><a href="#">
+                <figure><img src="imagens/bigbangtheory.png" alt=""><figcaption>The Big Bang Theory</figcaption></figure>
+            </a></div>
+
+            <div><a href="#">
+                <figure><img src="imagens/topgun.png" alt=""><figcaption>Top Gun</figcaption></figure>
+            </a></div>
+
             <div class="direita"><img src="imagens/setadireita.png" alt=""></div>
         </section>
     </main>
     <footer>
         <p>© Prime Video © Prime•Video © & ™ Aneis do Poder LTD © 2022 MARVERICK. Reservados todos os direitos, Prime Video 
-            <img src="imagens/iconyoutube.png" alt="">
-                    <img src="imagens/iconinstagram.png" alt="">
-                    <img src="imagens/iconprimevideo.png" alt="">
+            <a href="https://www.youtube.com/@PrimeVideoBR" target="_blank"><img src="imagens/iconyoutube.png" alt=""></a>
+            <a href="https://www.instagram.com/primevideobr/" target="_blank"><img src="imagens/iconinstagram.png" alt=""></a>
+            <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root?_encoding=UTF8&language=pt_BR" target="_blank"><img src="imagens/iconprimevideo.png" alt=""></a>
         </p>
          
             
